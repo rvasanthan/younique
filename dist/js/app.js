@@ -265,7 +265,7 @@ function initializeMap(selector) {
       "weight": 1.2
     }]
   }]);
-  var image = '/dist/images/map-marker.png';
+  var image = 'dist/images/map-marker.png';
   var myLatLng = new google.maps.LatLng(latitude, longitude);
   var marker = new google.maps.Marker({
     position: myLatLng,
