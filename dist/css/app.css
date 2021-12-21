@@ -19892,7 +19892,7 @@ a.effect:hover:after {
 }
 
 .navbar .navbar-brand > img {
-  max-height: 65px;
+  max-height: 70px;
   height: 100%;
 }
 
@@ -20124,7 +20124,7 @@ a.effect:hover:after {
 }
 
 .slide .carousel-item {
-  max-height: calc(100vh - 125px);
+  max-height: calc(170vh - 125px);
 }
 
 .slide .carousel-caption {
@@ -20141,7 +20141,7 @@ a.effect:hover:after {
 }
 
 .swiper-slider .swiper-container {
-  max-height: calc(100vh - 125px);
+  max-height: calc(170vh - 125px);
 }
 
 .swiper-slider .swiper-container .swiper-slide {
@@ -21676,4 +21676,3 @@ a.effect:hover:after {
     display: none;
   }
 }
-
