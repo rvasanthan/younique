@@ -33,7 +33,7 @@ all you need to do just to copy the content of ``webpack.mix.js`` file to your L
 * But keep in mind that you need to delete the following lines in your Laravel app.
 ```
 mix.setPublicPath('dist')
-    .setResourceRoot('/dist/');
+    .setResourceRoot('dist/');
 ```
 
 * And consider taking the content of ``package.json`` as will.

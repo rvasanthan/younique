@@ -177,7 +177,7 @@ function initializeMap(selector) {
     }]);
 
 
-    let image = '/dist/images/map-marker.png';
+    let image = 'dist/images/map-marker.png';
     let myLatLng = new google.maps.LatLng(latitude, longitude);
     let marker = new google.maps.Marker({
         position: myLatLng,

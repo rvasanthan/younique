@@ -28,7 +28,7 @@ try {
     require('classie');
     require('imagesloaded');
     require('jquery-slimscroll');
-    require('starrr/dist/starrr');
+    require('starrrdist/starrr');
 
     require('./libs/overlay');
 } catch (e) {

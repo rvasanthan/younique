@@ -665,7 +665,7 @@ $(window).resize(function () {
  * code may be modified to fit the specific needs of your application.
  */
 try {
-  var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+  var $ = __webpack_require__(/*! jquery */ "./node_modules/jquerydist/jquery.js");
 
   window.$ = window.jQuery = $;
 
@@ -685,11 +685,11 @@ try {
 
   window.Swiper = __webpack_require__(/*! swiper */ "./node_modules/swiper/js/swiper.esm.bundle.js");
 
-  __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
+  __webpack_require__(/*! bootstrap */ "./node_modules/bootstrapdist/js/bootstrap.js");
 
-  __webpack_require__(/*! owl.carousel */ "./node_modules/owl.carousel/dist/owl.carousel.js");
+  __webpack_require__(/*! owl.carousel */ "./node_modules/owl.carouseldist/owl.carousel.js");
 
-  __webpack_require__(/*! @fancyapps/fancybox */ "./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js");
+  __webpack_require__(/*! @fancyapps/fancybox */ "./node_modules/@fancyapps/fancyboxdist/jquery.fancybox.js");
 
   __webpack_require__(/*! classie */ "./node_modules/classie/index.js");
 
@@ -697,7 +697,7 @@ try {
 
   __webpack_require__(/*! jquery-slimscroll */ "./node_modules/jquery-slimscroll/jquery.slimscroll.js");
 
-  __webpack_require__(/*! starrr/dist/starrr */ "./node_modules/starrr/dist/starrr.js");
+  __webpack_require__(/*! starrrdist/starrr */ "./node_modules/starrrdist/starrr.js");
 
   __webpack_require__(/*! ./libs/overlay */ "./assets/js/libs/overlay.js");
 } catch (e) {}
@@ -1535,9 +1535,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js":
+/***/ "./node_modules/@fancyapps/fancyboxdist/jquery.fancybox.js":
 /*!******************************************************************!*\
-  !*** ./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js ***!
+  !*** ./node_modules/@fancyapps/fancyboxdist/jquery.fancybox.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -7177,9 +7177,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
+/***/ "./node_modules/bootstrapdist/js/bootstrap.js":
 /*!*****************************************************!*\
-  !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
+  !*** ./node_modules/bootstrapdist/js/bootstrap.js ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -7190,7 +7190,7 @@ __webpack_require__.r(__webpack_exports__);
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
-   true ? factory(exports, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"), __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")) :
+   true ? factory(exports, __webpack_require__(/*! jquery */ "./node_modules/jquerydist/jquery.js"), __webpack_require__(/*! popper.js */ "./node_modules/popper.jsdist/esm/popper.js")) :
   undefined;
 }(this, (function (exports, $, Popper) { 'use strict';
 
@@ -12141,9 +12141,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ "./node_modules/dom7/dist/dom7.modular.js":
+/***/ "./node_modules/dom7dist/dom7.modular.js":
 /*!************************************************!*\
-  !*** ./node_modules/dom7/dist/dom7.modular.js ***!
+  !*** ./node_modules/dom7dist/dom7.modular.js ***!
   \************************************************/
 /*! exports provided: $, addClass, removeClass, hasClass, toggleClass, attr, removeAttr, prop, data, removeData, dataset, val, transform, transition, on, off, once, trigger, transitionEnd, animationEnd, width, outerWidth, height, outerHeight, offset, hide, show, styles, css, toArray, each, forEach, filter, map, html, text, is, indexOf, index, eq, append, appendTo, prepend, prependTo, insertBefore, insertAfter, next, nextAll, prev, prevAll, siblings, parent, parents, closest, find, children, remove, detach, add, empty, scrollTo, scrollTop, scrollLeft, animate, stop, click, blur, focus, focusin, focusout, keyup, keydown, keypress, submit, change, mousedown, mousemove, mouseup, mouseenter, mouseleave, mouseout, mouseover, touchstart, touchend, touchmove, resize, scroll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -12237,7 +12237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "touchmove", function() { return touchmove; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resize", function() { return resize; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "scroll", function() { return scroll; });
-/* harmony import */ var ssr_window__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ssr-window */ "./node_modules/ssr-window/dist/ssr-window.esm.js");
+/* harmony import */ var ssr_window__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ssr-window */ "./node_modules/ssr-windowdist/ssr-window.esm.js");
 /**
  * Dom7 2.1.3
  * Minimalistic JavaScript library for DOM manipulation, with a jQuery-compatible API
@@ -15610,7 +15610,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
   /*jshint strict: false */ /* globals define, module, require */
   if ( true ) {
     // AMD
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(/*! jquery */ "./node_modules/jquery-bridget/node_modules/jquery/dist/jquery.js") ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( jQuery ) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(/*! jquery */ "./node_modules/jquery-bridget/node_modules/jquerydist/jquery.js") ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( jQuery ) {
       return factory( window, jQuery );
     }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -15733,9 +15733,9 @@ return jQueryBridget;
 
 /***/ }),
 
-/***/ "./node_modules/jquery-bridget/node_modules/jquery/dist/jquery.js":
+/***/ "./node_modules/jquery-bridget/node_modules/jquerydist/jquery.js":
 /*!************************************************************************!*\
-  !*** ./node_modules/jquery-bridget/node_modules/jquery/dist/jquery.js ***!
+  !*** ./node_modules/jquery-bridget/node_modules/jquerydist/jquery.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27118,7 +27118,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 	if ( true ) {
 
 		// AMD. Register as an anonymous module.
-		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js") ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(/*! jquery */ "./node_modules/jquerydist/jquery.js") ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -45817,9 +45817,9 @@ var effectsEffectTransfer = effect;
 
 /***/ }),
 
-/***/ "./node_modules/jquery/dist/jquery.js":
+/***/ "./node_modules/jquerydist/jquery.js":
 /*!********************************************!*\
-  !*** ./node_modules/jquery/dist/jquery.js ***!
+  !*** ./node_modules/jquerydist/jquery.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -58151,9 +58151,9 @@ return Outlayer;
 
 /***/ }),
 
-/***/ "./node_modules/owl.carousel/dist/owl.carousel.js":
+/***/ "./node_modules/owl.carouseldist/owl.carousel.js":
 /*!********************************************************!*\
-  !*** ./node_modules/owl.carousel/dist/owl.carousel.js ***!
+  !*** ./node_modules/owl.carouseldist/owl.carousel.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -61610,9 +61610,9 @@ return Outlayer;
 
 /***/ }),
 
-/***/ "./node_modules/popper.js/dist/esm/popper.js":
+/***/ "./node_modules/popper.jsdist/esm/popper.js":
 /*!***************************************************!*\
-  !*** ./node_modules/popper.js/dist/esm/popper.js ***!
+  !*** ./node_modules/popper.jsdist/esm/popper.js ***!
   \***************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -64240,9 +64240,9 @@ Popper.Defaults = Defaults;
 
 /***/ }),
 
-/***/ "./node_modules/ssr-window/dist/ssr-window.esm.js":
+/***/ "./node_modules/ssr-windowdist/ssr-window.esm.js":
 /*!********************************************************!*\
-  !*** ./node_modules/ssr-window/dist/ssr-window.esm.js ***!
+  !*** ./node_modules/ssr-windowdist/ssr-window.esm.js ***!
   \********************************************************/
 /*! exports provided: window, document */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -64329,9 +64329,9 @@ var win = (typeof window === 'undefined') ? {
 
 /***/ }),
 
-/***/ "./node_modules/starrr/dist/starrr.js":
+/***/ "./node_modules/starrrdist/starrr.js":
 /*!********************************************!*\
-  !*** ./node_modules/starrr/dist/starrr.js ***!
+  !*** ./node_modules/starrrdist/starrr.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -64447,8 +64447,8 @@ var slice = [].slice;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var dom7_dist_dom7_modular__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dom7/dist/dom7.modular */ "./node_modules/dom7/dist/dom7.modular.js");
-/* harmony import */ var ssr_window__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ssr-window */ "./node_modules/ssr-window/dist/ssr-window.esm.js");
+/* harmony import */ var dom7_dist_dom7_modular__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dom7dist/dom7.modular */ "./node_modules/dom7dist/dom7.modular.js");
+/* harmony import */ var ssr_window__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ssr-window */ "./node_modules/ssr-windowdist/ssr-window.esm.js");
 /**
  * Swiper 5.3.7
  * Most modern mobile touch slider and framework with hardware accelerated transitions

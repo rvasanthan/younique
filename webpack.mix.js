@@ -3,7 +3,7 @@ require('laravel-mix-imagemin');
 require('laravel-mix-purgecss');
 
 mix.setPublicPath('dist')
-    .setResourceRoot('/dist/');
+    .setResourceRoot('dist/');
 
 mix.js('assets/js/app.js', 'dist/js')
     .sass('assets/sass/app.scss', 'dist/css')
