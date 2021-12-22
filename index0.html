@@ -16,7 +16,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Younique Fashions & Botique</title>
 
-	<unq-favicon></unq-favicon>
+	<link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/abhinithame/image/upload/v1640096730/younique/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/abhinithame/image/upload/v1640096730/younique/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/abhinithame/image/upload/v1640096730/younique/favicon-16x16.png">
 	<meta name="theme-color" content="#9ed4d6">
 
 	<!-- Load Fonts -->
@@ -33,13 +35,42 @@
 	<![endif]-->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script src="dist/js/nav-menu.js"></script>
 </head>
 <body>
 
-<!-- <contact-nav-bar> </contact-nav-bar> -->
 <div class="nav-container fixed-top nav-sticky">
 	<nav class="sub-navbar bg-white d-flex">
 		<div class="d-flex align-items-center mr-auto">
+			<!-- <div class="list-select">
+				<div class="inner-select">
+					<div class="selected pt-1">
+						<img src="dist/images/flags/uk.svg" width="18" alt="">
+					</div>
+					<ul>
+						<li>
+							<a href="index.html">
+								<img src="dist/images/flags/uk.svg" width="18" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="rtl/">
+								<img src="dist/images/flags/sa.svg" width="18" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="list-select">
+				<div class="inner-select">
+					<div class="selected"><i class="bx bx-dollar"></i></div>
+					 <ul>
+						<li><a href="#!"><i class="bx bx-dollar"></i></a></li>
+						<li><a href="#!"><i class="bx bx-bitcoin"></i></a></li>
+						<li><a href="#!"><i class="bx bx-euro"></i></a></li>
+					</ul>
+				</div>
+			</div> -->
 		</div>
 
 		<ul class="nav list-inline ml-auto">
@@ -50,88 +81,163 @@
 				<a href="wishlist.html" class="px-2">unqfsn@gmail.com</a>
 			</li>
 		</ul>
+		<!-- <ul class="nav list-inline ml-auto">
+			<li>
+				<a href="#!" class="px-2">My account</a>
+			</li>
+			<li>
+				<a href="wishlist.html" class="px-2">My Wishlist</a>
+			</li>
+		</ul> -->
 	</nav><!-- /.sub-navbar -->
-</div>
-<!-- <main-menu></main-menu> -->
-<nav style="height:30px" class="navbar navbar-expand-lg navbar-light bg-white">
-	<div class="container">
-		<a class="navbar-brand" href="index.html">
-			<img src="https://res.cloudinary.com/abhinithame/image/upload/v1640015044/younique/logo_resized.png" alt="Sham Theme">
-		</a>
 
-		<ul class="nav navbar-icons ml-auto order-lg-2">
-			<li class="nav-item mr-3 shopping-cart">
-		</ul>
-<button
-		class="navbar-toggler ml-0 ml-sm-3 order-lg-3"
-		type="button"
-		data-toggle="collapse"
-		data-target="#navbar"
-		aria-controls="navbar"
-		aria-expanded="false"
-		aria-label="Toggle navigation"
->
-	<span class="navbar-toggler-icon"></span>
-</button>
-<div id="navbar" class="collapse navbar-collapse mr-auto">
-	<ul class="navbar-nav mr-auto">
-		<li class="nav-item dropdown active">
-			<a class="nav-link dropdown-toggle" href="index.html" role="button"
-				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+	<!-- <nav style="height:30px" class="navbar navbar-expand-lg navbar-light bg-white">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="https://res.cloudinary.com/abhinithame/image/upload/v1640015044/younique/logo_resized.png" alt="Sham Theme">
+			</a>
+
+			<ul class="nav navbar-icons ml-auto order-lg-2">
+				<li class="nav-item mr-3 shopping-cart">
+					<!-- <a href="#!" class="li-icon" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+						<i class="bx bx-shopping-bag"></i>
+						<span class="badge badge-secondary rounded-circle">4</span>
+					</a> -->
+					<!-- <div class="dropdown-menu dropdown-menu-right border-0 shadow">
+						<ul class="dropdown-wrap position-relative" data-slimscroll="true">
+							<li class="d-flex">
+								<a href="product.html">
+									<img src="dist/images/products/2.jpg" class="img-fluid product-img" alt="">
+								</a>
+								<div class="ml-3 product-details">
+									<p class="product-title font-weight-bold text-uppercase mb-2">
+										<a href="product.html">Bag Dark Beige</a>
+									</p>
+									<p class="product-price text-muted">
+										<ins>
+											<span class="amount">$66.50</span>
+										</ins>
+									</p>
+								</div>
+							</li>
+							<li class="d-flex">
+								<a href="product.html">
+									<img src="dist/images/products/24.jpg" class="img-fluid product-img" alt="">
+								</a>
+								<div class="ml-3 product-details">
+									<p class="product-title font-weight-bold text-uppercase mb-2">
+										<a href="product.html">Shoes Maroon</a>
+									</p>
+									<div class="product-price text-muted">$80.99</div>
+								</div>
+							</li>
+							<li class="d-flex">
+								<a href="product.html">
+									<img src="dist/images/products/3.jpg" class="img-fluid product-img" alt="">
+								</a>
+								<div class="ml-3 product-details">
+									<p class="product-title font-weight-bold text-uppercase mb-2">
+										<a href="product.html">Unisex Cap</a>
+									</p>
+									<div class="product-price text-muted">$99.99</div>
+								</div>
+							</li>
+							<li class="d-flex">
+								<a href="product.html">
+									<img src="dist/images/products/12.jpg" class="img-fluid product-img" alt="">
+								</a>
+								<div class="ml-3 product-details">
+									<p class="product-title font-weight-bold text-uppercase mb-2">
+										<a href="product.html">Twill Silk Scarf</a>
+									</p>
+									<div class="product-price text-muted">$49.99</div>
+								</div>
+							</li>
+
+							<li class="dropdown-footer p-0 text-center text-uppercase font-weight-bold">
+								<a href="cart.html" class="p-3 d-block">View Cart</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="#!" class="li-icon" id="trigger-overlay"><i class="bx bx-search"></i></a>
+				</li> -->
+		<!-- 	</ul>  -->
+
+			<!-- <button
+					class="navbar-toggler ml-0 ml-sm-3 order-lg-3"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbar"
+					aria-controls="navbar"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
 			>
-				Home
-			</a>
-			<ul class="dropdown-menu">
-				<li class="dropdown-item active"><a class="nav-link" href="#">Default</a></li>
-				<li class="dropdown-item"><a class="nav-link" href="index-2.html">Default Slider</a></li>
-				<li class="dropdown-item"><a class="nav-link" href="index-3.html">Overlay Products</a></li>
-				<li class="dropdown-item"><a class="nav-link" href="index-4.html#instagram">Instagram section</a></li>
-			</ul>
-		</li>
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" role="button"
-				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Shop
-			</a>
-			<ul class="dropdown-menu">
-				<li><a class="nav-link" href="products.html">Full Width Shop</a></li>
-				<li><a class="nav-link" href="products-with-filter.html">Shop With Filter</a></li>
-				<li><a class="nav-link" href="products-sidebar-left.html">Sidebar Left</a></li>
-				<li><a class="nav-link" href="products-sidebar-right.html">Sidebar Right</a></li>
-				<li><a class="nav-link" href="product.html">Simple Product</a></li>
-			</ul>
-		</li>
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" role="button"
-				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				eCommerce Pages
-			</a>
-			<ul class="dropdown-menu">
-				<li><a class="nav-link" href="wishlist.html">Wishlist</a></li>
-				<li><a class="nav-link" href="cart.html">Cart</a></li>
-				<li><a class="nav-link" href="checkout.html">Checkout</a></li>
-				<li><a class="nav-link" href="order-received.html">Order Received</a></li>
-				<li><a class="nav-link" href="order-tracking.html">Order Tracking</a></li>
-			</ul>
-		</li>
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" role="button"
-				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Pages
-			</a>
-			<ul class="dropdown-menu">
-				<li><a class="nav-link" href="page.html">Page Default</a></li>
-				<li><a class="nav-link" href="login-register.html">Login / Register</a></li>
-				<li><a class="nav-link" href="404.html">Not Found (404)</a></li>
-				<li><a class="nav-link" href="faqs.html">FAQ'S</a></li>
-			</ul>
-		</li>
-		<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-		<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-	</ul>
-</div>
-</div>
-</nav>
+				<span class="navbar-toggler-icon"></span>
+			</button> -->
+
+			<main-menu></main-menu>
+			<!-- <div id="navbar" class="collapse navbar-collapse mr-auto">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="index.html" role="button"
+						   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+						>
+							Home
+						</a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-item active"><a class="nav-link" href="#">Default</a></li>
+							<li class="dropdown-item"><a class="nav-link" href="index-2.html">Default Slider</a></li>
+							<li class="dropdown-item"><a class="nav-link" href="index-3.html">Overlay Products</a></li>
+							<li class="dropdown-item"><a class="nav-link" href="index-4.html#instagram">Instagram section</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button"
+						   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Shop
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="nav-link" href="products.html">Full Width Shop</a></li>
+							<li><a class="nav-link" href="products-with-filter.html">Shop With Filter</a></li>
+							<li><a class="nav-link" href="products-sidebar-left.html">Sidebar Left</a></li>
+							<li><a class="nav-link" href="products-sidebar-right.html">Sidebar Right</a></li>
+							<li><a class="nav-link" href="product.html">Simple Product</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button"
+						   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							eCommerce Pages
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="nav-link" href="wishlist.html">Wishlist</a></li>
+							<li><a class="nav-link" href="cart.html">Cart</a></li>
+							<li><a class="nav-link" href="checkout.html">Checkout</a></li>
+							<li><a class="nav-link" href="order-received.html">Order Received</a></li>
+							<li><a class="nav-link" href="order-tracking.html">Order Tracking</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button"
+						   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pages
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="nav-link" href="page.html">Page Default</a></li>
+							<li><a class="nav-link" href="login-register.html">Login / Register</a></li>
+							<li><a class="nav-link" href="404.html">Not Found (404)</a></li>
+							<li><a class="nav-link" href="faqs.html">FAQ'S</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div><!--/.container -->
+	</nav>
+</div><!-- /.nav-container -->
 
 <header class="header slider">
 	<div id="carouselSlider" class="carousel slide" data-ride="carousel">
@@ -163,6 +269,38 @@
 		</div>
 	</div>
 </header>
+
+<!--
+<div class="swiper-slider">
+
+	<div class="swiper-container" dir="ltr">
+		<div class="swiper-wrapper text-center">
+			<div class="swiper-slide">
+				<div class="d-flex align-items-center">
+					<img src="https://res.cloudinary.com/abhinithame/image/upload/v1640062177/younique/inspired.png" class="img-fluid" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="d-flex align-items-center">
+					<img src="https://res.cloudinary.com/abhinithame/image/upload/v1640040938/younique/family_banner.png" class="img-fluid" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="d-flex align-items-center">
+					<img src="https://res.cloudinary.com/abhinithame/image/upload/v1640040181/younique/Perfect_Blend_of_tradition_and_trends_1.png" class="img-fluid" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="d-flex align-items-center">
+					<img src="https://res.cloudinary.com/abhinithame/image/upload/v1640050655/younique/Absolutely_Modern_and_Ethnic.png" class="img-fluid" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="d-flex align-items-center">
+					<img src="https://res.cloudinary.com/abhinithame/image/upload/v1640061378/younique/Best_and_Exclusive_Collections.png" class="img-fluid" alt="">
+				</div>
+			</div>
+		</div> -->
 
 		<!-- If we need pagination -->
 		<div class="swiper-pagination swiper-pagination-white"></div>
@@ -514,7 +652,142 @@
 	</div><!-- /.container -->
 </section><!-- /.products -->
 
-<unq-footer></unq-footer>
+<!--
+<section class="section brands pt-0 pb-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div id="logos" class="owl-carousel">
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/5.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/6.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/4.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/7.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/8.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/9.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/1.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/2.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#!"><img src="dist/images/brands/3.png" class="img-fluid" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- /.brands -->
+
+<footer class="footer">
+	<div class="container">
+		<div class="widgets">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 widget widget-about">
+					<h3 class="widget-title">Younique Fashions & Boutique</h3>
+					<p>
+						Younique fashions is a fashion startup which brings culture, style, trends and traditions together. It is a one stop shop of Indian ethnic wear for your whole family.
+					</p>
+				</div><!-- ./widget -->
+				<!-- <div class="col-lg-3 col-md-6 widget widget-links">
+					<h3 class="widget-title">My Account</h3>
+					<div class="row">
+						<ul class="list-unstyled col-6">
+							<li><a href="#!" class="effect">My Account</a></li>
+							<li><a href="#!" class="effect">My Order</a></li>
+							<li><a href="#!" class="effect">My Wiseliest</a></li>
+							<li><a href="#!" class="effect">My Profile</a></li>
+							<li><a href="#!" class="effect">My Address</a></li>
+							<li><a href="#!" class="effect">My Products</a></li>
+						</ul>
+						<ul class="list-unstyled col-6">
+							<li><a href="#!" class="effect">About Us</a></li>
+							<li><a href="#!" class="effect">Contact</a></li>
+							<li><a href="#!" class="effect">Payment</a></li>
+							<li><a href="#!" class="effect">Blog</a></li>
+							<li><a href="#!" class="effect">FAQ's</a></li>
+							<li><a href="#!" class="effect">Order</a></li>
+						</ul>
+					</div>
+				</div><!-- ./widget -->
+				<!-- <div class="col-lg-3 col-md-6 widget widget-instagram">
+					<h3 class="widget-title">Instagram</h3>
+					<ul class="row">
+						<li class="col-4">
+							<a href="#!">
+								<img src="dist/images/products/23.jpg" class="img-fluid" alt="">
+							</a>
+						</li>
+						<li class="col-4">
+							<a href="#!">
+								<img src="dist/images/products/20.jpg" class="img-fluid" alt="">
+							</a>
+						</li>
+						<li class="col-4">
+							<a href="#!">
+								<img src="dist/images/products/18.jpg" class="img-fluid" alt="">
+							</a>
+						</li>
+						<li class="col-4">
+							<a href="#!">
+								<img src="dist/images/products/19.jpg" class="img-fluid" alt="">
+							</a>
+						</li>
+						<li class="col-4">
+							<a href="#!">
+								<img src="dist/images/products/24.jpg" class="img-fluid" alt="">
+							</a>
+						</li>
+						<li class="col-4">
+							<a href="#!">
+								<img src="dist/images/products/12.jpg" class="img-fluid" alt="">
+							</a>
+						</li>
+					</ul>
+				</div><!-- /.widget -->
+				<div class="col-lg-6 col-md-6 widget widget-newsletter">
+					<h3 class="widget-title">Join our Newsletter</h3>
+					<form action="#!" method="POST" class="inputs-border clearfix">
+						<div class="form-group">
+							<input type="email" name="email" placeholder="Your Email" class="form-control" autocomplete="off">
+							<button type="submit" class="btn btn-primary">
+								<i class="bx bx-right-arrow-alt"></i>
+							</button>
+						</div>
+					</form>
+					<ul class="social">
+						<li><a href="#!" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+						<li><a href="#!" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+						<li><a href="#!" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+						<li><a href="#!" target="_blank"><i class="bx bxl-snapchat"></i></a></li>
+					</ul>
+				</div><!-- ./widget -->
+			</div><!-- /.row -->
+		</div><!-- /.widgets -->
+	</div><!-- /.container -->
+	<div class="copyright text-center">
+		<p>
+			© Copyright 2022. All Rights Reserved.
+			<br>
+			Powered by
+			<a href="https://hussam3bd.com" class="effect">
+				Adonis Innovation Labs
+			</a>
+		</p>
+	</div>
+</footer><!-- /.footer -->
 
 <!-- open/close -->
 <div class="overlay overlay-simplegenie">
@@ -540,8 +813,5 @@
 
 <!-- All Theme Scripts -->
 <script type="text/javascript" src="dist/js/app.js"></script>
-<script src="dist/js/nav-menu.js"></script>
-<script src="dist/js/contact-nav-bar.js"></script>
-<script src="dist/js/footer.js"></script>
 </body>
 </html>
